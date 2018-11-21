@@ -173,7 +173,7 @@ void RQ(char* cmd)
 	}
 }
 
-char* find(int index)
+char* find(int index)//given index, find corresponding name in the map
 {
 	char* un = "Unused";
 	if (index == -1)
